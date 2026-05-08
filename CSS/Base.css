@@ -46,12 +46,13 @@ nav {
     background-color: rgb(69, 113, 255);
     min-width: 10%;
     padding: 0 10px;
-    min-height: 7%;
+    min-height: 4vh;
     align-items: center;
     justify-content: center;
 }
 
 main {
+    margin-top: 2vh;
     flex-grow: 1;
 }
 

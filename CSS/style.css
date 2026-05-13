@@ -1,1 +1,20 @@
 @import url(Base.css);
+
+.hero {
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(69, 112, 255, 0.5), rgba(69, 112, 255, 0.397)), url(../Imagens/onibus3.png);
+    background-size: 100% 100%;
+}
+.hero h2 {
+    display: flex;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 500;
+    justify-content: center;
+}
+
+@media(max-width: 500px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+}

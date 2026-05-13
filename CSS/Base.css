@@ -9,12 +9,11 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
     min-height: 100vh;
 }
 
 header {
-    min-width: 100vw;
+    width: 100%;
     height: fit-content;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     background-color: rgb(69, 113, 255);
@@ -29,9 +28,10 @@ h1 {
     font-weight: 500;
 }
 
-nav {
-    min-width: 100vw;
-    min-height: 40%;
+.navbar {
+    list-style: none;
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,6 +54,8 @@ nav {
 }
 
 main {
+    width: 100%;
+    height: 100%;
     flex-grow: 1;
 }
 
@@ -67,7 +69,7 @@ footer {
 @media(max-width: 500px) {
 
     .nav-itens {
-        max-width: 20%;
+        max-width: 20vw;
         font-size: 0.8rem;
         min-height: 35px;
     }
@@ -88,8 +90,8 @@ footer {
     }
 
     h1 {
-    font-size: 10rem;
-    font-weight: 500;
+        font-size: 10rem;
+        font-weight: 500;
     }
 
     footer {

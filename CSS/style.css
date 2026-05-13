@@ -1,20 +1,76 @@
 @import url(Base.css);
 
 .hero {
-    min-height: 90vh;
-    background-image: linear-gradient(rgba(69, 112, 255, 0.5), rgba(69, 112, 255, 0.397)), url(../Imagens/onibus3.png);
-    background-size: 100% 100%;
-}
-.hero h2 {
     display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(69, 112, 255, 0.5), rgba(69, 112, 255, 0.397)), url(../Imagens/onibus3.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+}
+
+.hero h2 {
+    max-width: 100%;
     color: #ffffff;
-    font-size: 3rem;
+    padding-left: 1vw;
+    font-size: 5rem;
     font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero div {
+    width: 50%;
+    height: 90vh;
+}
+
+.hero-lado-esquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.hero-lado-direito {
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.hero a {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(69, 112, 255);
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 
 @media(max-width: 500px) {
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        height: 81.5vh;
+    }
+
+    .hero div {
+        height: 50%;
+        width: 100%;
+    }
+
+    .hero a {
+        width: 70%;
+    }
+
+    .hero-lado-direito {
+        align-items: first baseline;
+        margin-top: 30px;
+    }
+
     .hero h2 {
-        font-size: 2rem;
+        padding: 0;
+        text-align: center;
+        font-size: 3rem;
     }
 }

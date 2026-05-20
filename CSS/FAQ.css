@@ -1,1 +1,18 @@
 @import url(Base.css);
+
+.PaginaPerguntas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+}
+
+.Perguntas{
+    display: flex;
+    padding-top: 2.5%;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    width: 100%;
+}

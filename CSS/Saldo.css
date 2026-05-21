@@ -121,4 +121,14 @@
     .botao-resgatar {
         width: 100%;
     }
+
+    .saldo-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.botao-resgate:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 }

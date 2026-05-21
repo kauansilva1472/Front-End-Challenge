@@ -150,4 +150,16 @@ header nav ul li {
     .token-card {
         padding: 25px;
     }
+
+    .resgate-card:hover,
+.token-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.form-resgate button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    cursor: pointer;
+}
 }

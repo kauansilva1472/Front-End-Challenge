@@ -1,0 +1,134 @@
+@import url(base.css);
+
+.saldo-section {
+    width: 85%;
+    max-width: 1100px;
+    margin: 50px auto;
+    font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Color: #1f2937
+}
+
+.saldo-container {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(69,113,255);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.saldo-cards {
+    background-color:rgb(69,113,255);
+    border-radius: 25px;
+    padding: 35px;
+    collor: #fff;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    max-width: 650px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.saldo-cards h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.pontos {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.credito {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+.botao-resgatar {
+    display: inline-block;
+    background-color: #fff;
+    color: rgb(69,113,255);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.histoico{
+    background-color: #f3f4f6;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.historico h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(69,113,255);
+    text-align: center;
+}
+
+.historico-item {
+    Display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 1.1rem;
+}
+
+.historico-item strong {
+    color: rgb(69,113,255);
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .saldo-container h2{
+        width: 90%;
+    }
+
+    .saldo-container {
+        font-size: 2rem;
+    }
+
+    .pontos {
+        font-size: 2.5rem;
+    }
+
+    .saldo-cards {
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .historico-item {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .botao-resgatar {
+        width: 100%;
+    }
+
+    .saldo-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.botao-resgate:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+}

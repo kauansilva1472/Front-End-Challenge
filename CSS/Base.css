@@ -97,4 +97,13 @@ footer {
     footer {
         font-size: 2rem;
     }
+    
+    html {
+    scroll-behavior: smooth;
+}
+
+.nav-itens:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 }
